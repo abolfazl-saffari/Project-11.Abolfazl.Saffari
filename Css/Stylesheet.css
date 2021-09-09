@@ -1,0 +1,163 @@
+:root {
+    --color-primary: #161616;
+    --color-secondary: #1E1E1E;
+    --color-heading: #161616
+}
+
+body {
+    color: var(--color-primary);
+}
+
+.container {
+    width: 75vw;
+    margin: 1rem auto;
+    max-width: 1320px;
+    padding-bottom: 30px;
+}
+
+.Span-1 {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: bold;
+    float: left;
+    font-size: 1.5rem;
+
+}
+
+.Span-2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    float: right;
+    font-size: 1.5rem;
+}
+
+.container-2 {
+    max-width: 1320px;
+    width: 75vw;
+    margin: 1.5rem 0 0 0;
+    border: 1px solid var(--color-primary);
+}
+
+.container-2-header {
+    background: #dddbdb;
+}
+
+.container-2 img {
+    padding: 0.75rem 0 0.5rem 0.5rem;
+}
+
+.container-3 {
+    width: 72.5vw;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+
+.container-3 img {
+    display: inline;
+    float: left;
+    width: 5%;
+}
+
+.Navbar {
+    margin: 0;
+    width: 72vw;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Navbar li {
+    float: left;
+}
+
+.Navbar li a {
+    display: block;
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1.7rem 1rem;
+    text-decoration: none;
+}
+
+.container-4 {
+    width: 30vw;
+    margin: 3rem 6rem 1rem 6rem;
+    max-width: 1320px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: var(--color-secondary);
+}
+
+.container-4 p {
+    width: 55ch;
+}
+
+.container-5 {
+    width: 67vw;
+    margin: 1rem auto;
+    max-width: 1320px;
+    padding-bottom: 30px;
+}
+
+.container-5 img {
+    width: 15rem;
+}
+
+table, td, th {
+    border: 1px solid black;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: bold;
+}
+
+
+td {
+    padding-left: 1rem;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.Head {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 1.5rem;
+}
+
+.p-two {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.p-one {
+    font-size: 1.2rem;
+}
+
+.container-6 {
+    text-align: center;
+    width: 75vw;
+    margin: 4rem 0 2rem 0;
+}
+
+.container-6 span {
+    margin-left: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.container-6 a {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+
