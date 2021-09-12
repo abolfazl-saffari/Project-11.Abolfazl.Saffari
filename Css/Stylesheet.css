@@ -108,6 +108,12 @@ body {
 
 .container-5 img {
     width: 15rem;
+    height: auto;
+}
+
+.background {
+    background-image: url("../Img/Car.webp");
+    background-size: cover;
 }
 
 table, td, th {
@@ -116,10 +122,15 @@ table, td, th {
     font-weight: bold;
 }
 
+th {
+    padding: 110px 120px;
+}
+
 
 td {
     padding-left: 1rem;
 }
+
 
 table {
     width: 70%;
