@@ -112,7 +112,7 @@ body {
 }
 
 .background {
-    background-image: url("../Img/Car.webp");
+    background-image: url("../img/Car.webp");
     background-size: cover;
 }
 
@@ -170,5 +170,17 @@ table {
     color: var(--color-secondary);
     text-decoration: none;
 }
+@media screen and (max-width: 600px) {
+.container-4 h1 {
+    font-size: 2rem;
+    text-align: justify;
+}
+    .container-4 p{
+        width: 10ch;
+    }
+}
+
+
+
 
 
