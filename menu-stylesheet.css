@@ -1,0 +1,74 @@
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 3rem;
+}
+
+li {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.div-style {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 1.5rem;
+}
+
+.ul-01 {
+    font-size: 5vw;
+}
+
+.ul-02 {
+    font-size: 4vw;
+}
+
+.a-lol {
+    color: white;
+}
+
+.instagram {
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
+
+.linkedin {
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    padding: 0.4rem;
+
+}
+
+.facebook {
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
+
+.li-sp {
+    display: inline;
+}
+
+#margin {
+    margin: 0 1.5rem;
+}
+
+.margin {
+    margin-top: 1rem;
+
+}
+
+hr {
+    margin-top: 2.5rem;
+}
+
+.float {
+    float: right;
+    margin-top: 0.1rem;
+}
