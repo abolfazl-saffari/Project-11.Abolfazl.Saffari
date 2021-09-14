@@ -59,6 +59,25 @@ li {
     padding: 5.5rem 5.6rem;
     background-color: #EEEEEE;
 }
+.menu-bar{
+    background-color: #EEEEEE;
+    padding: 1rem 0 0 1rem;
+
+}
+.menu-bar span{
+    font-size: 1.8vw;
+    vertical-align: middle;
+    margin-top: 0.25rem;
+}
+#span01{
+    float: left;
+}
+#img02{
+    float: right;
+    padding-right: 1rem;
+    padding-top: 0;
+    max-width: 100%;
+}
 
 
 .li-spe {
@@ -68,6 +87,9 @@ li {
 a {
     text-decoration: none;
     color: #757575;
+}
+.a-class{
+    color: white;
 }
 
 .instagram {
@@ -135,27 +157,16 @@ a {
     .grid-container{
         display: block;
     }
-}
-
-/*
-@media (max-width: 900px) {
-    .flex-container {
-        flex-direction: column;
+    .menu-bar span{
+        font-size: 2.5vw;
     }
 
-    .flex-container img {
-        width: 100%;
-    }
 }
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
+@media only screen and (min-width: 900px) {
+    .menu-bar{
+        display: none;
+    }
+
 }
 
-.flex-container img {
-    width: 600px;
-    height: 300px;
-    margin: 1px 0;
-}
 
